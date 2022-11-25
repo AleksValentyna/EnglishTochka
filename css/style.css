@@ -1,0 +1,160 @@
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*footer*/
+.footer {
+   /* text-align: center; */
+   width:475px;
+   margin: 0 auto;
+   background:#FFFFFF ;
+   font-family: 'Roboto', serif;
+   
+}
+
+.contacts_title {
+   display: flex;
+   font-weight: 500;
+   font-size: 36px;
+   justify-content: center;
+   line-height: 42px;
+   font-style: normal;
+   padding-bottom: 27px;
+}
+ .phone {
+  padding-bottom: 36px; 
+ }
+
+ .mail  {
+   padding-bottom: 36px; 
+ }
+
+.contacts_map {
+   display: block;
+    margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: 400;
+   margin-bottom: 39px;
+}
+
+.contacts, .contacts_map {
+   display: flex;
+   /* font-weight: 400; */
+   font-size: 18px;
+   line-height: 23px;
+   justify-content: center;
+}
+.contacts {
+   font-weight: 300;  
+}
+
+.contacts a {
+   text-decoration: none;
+   color:black;
+   font-style: normal;
+   }
+
+.contacts_map a {
+      text-decoration: none;
+      color:black;
+      font-style: normal;
+      }
+
+.geolocation {
+      padding-right: 22px; 
+   }
+
+   
+.address {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0 91px;
+}
+
+
+.button {
+   text-align: center;
+}
+
+.btn {
+   display: flex;
+   width: 302px;
+   height: 50px;
+   background: #FDCC03;
+   border-radius: 25px 25px 0px 25px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border: none;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 23px;
+   text-decoration: none;
+   color:black;
+   align-items: center;
+   justify-content: center;
+}
+
+ .arrow {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+} 
+.round_arrow {
+   padding-left:  95px;
+}
+
+.text_arrow {
+   /* padding-left: 121px; */
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   margin-top: 24px ;
+}
+.footer_social {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding-bottom: 84px;
+   padding-top: 19px;
+}
+
+.facebook {
+   padding-right:  40px; 
+
+}
+
+.developer {
+   display: flex ;
+   /* align-self: start; */
+   justify-content: center;
+   align-items: stretch;
+   padding-bottom: 24px;
+}
+.student {
+   display: flex ;
+   color: #00997D;
+   padding-left: 16px;
+   justify-content: center;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 16px;
+   text-decoration-line: underline;
+}
+#topBtn {
+   display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 88px; /* Place the button at the bottom of the page */
+    right: 21px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+      
+}
+
